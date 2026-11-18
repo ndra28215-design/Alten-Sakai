@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Alten Sakai & Company | Trusted Advisors for 75+ Years</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+:root{--green:#78a83b;--deep:#20382c;--ink:#26332c;--muted:#66736a;--cream:#f5f7f1}*{box-sizing:border-box}body{font-family:'DM Sans',sans-serif;color:var(--ink)}h1,h2,h3,.serif{font-family:'DM Serif Display',serif}.navlink{font-size:13px;font-weight:600;letter-spacing:.01em}.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:10px;font-weight:700;color:var(--green)}.btn{display:inline-flex;align-items:center;gap:12px;background:var(--green);color:white;padding:14px 20px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;transition:.25s}.btn:hover{background:#628d2e;transform:translateY(-2px)}.service-card img{transition:transform .6s}.service-card:hover img{transform:scale(1.04)}.line{width:42px;height:2px;background:var(--green)}
+</style>
+</head>
+<body class="bg-white">
+<!-- HEADER: Replace the logo filename below with the original Alten Sakai logo file. Keep it in this folder. -->
+<div class="bg-[#20382c] text-white">
+    <div class="max-w-7xl mx-auto px-6 py-2 flex justify-end gap-7 text-[11px] tracking-wide">
+        <a href="#client-portal" class="hover:text-lime-300">CLIENT PORTAL ↗</a>
+        <a href="#pay-bill" class="text-lime-300 hover:text-white">PAY MY BILL ↗</a>
+    </div>
+</div>
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-6 h-[88px] flex items-center justify-between">
+        <a href="index.html" class="shrink-0">
+            <img src="alten-sakai-logo.png" alt="Alten Sakai & Company CPAs" class="w-[225px] max-h-[58px] object-contain" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+            <span style="display:none" class="text-2xl tracking-tight">
+                <span class="text-[#78a83b]">ALTEN</span>SAKAI<small class="block text-[9px] tracking-[.25em] text-gray-500">& COMPANY · CPAs</small>
+            </span>
+        </a>
+        <nav class="hidden lg:flex items-center gap-7">
+        <a class="navlink hover:text-[#78a83b]" href="our-people.html">OUR TEAM</a>
+           <div class="relative group">
+        <a class="navlink hover:text-[#78a83b]" href="#services">OUR SERVICES⌄</a>
+        <div class="absolute hidden group-hover:block top-full left-0 pt-4 w-64">
+            <div class="bg-white shadow-xl border border-gray-100 p-4 grid gap-3">
+                <a href="#tax" class="text-xs hover:text-[#78a83b]">Tax Planning & Preparation</a>
+                <a href="#business" class="text-xs hover:text-[#78a83b]">Business Advisory & Accounting</a>
+                <a href="#estate" class="text-xs hover:text-[#78a83b]">Estate Administration & Planning</a>
+            </div>
+       </div>
+           </div>
+               <a class="navlink hover:text-[#78a83b]" href="careers.html">CAREERS</a>
+               <a class="navlink hover:text-[#78a83b]" href="#resources">RESOURCES</a>
+               <a class="navlink hover:text-[#78a83b]" href="#contact">CONTACT</a>
+               <a href="#client-portal" class="bg-[#20382c] text-white px-5 py-3 text-[11px] font-bold tracking-wider hover:bg-[#78a83b]">CLIENT PORTAL ↗</a>
+         </nav>
+           <button id="menuBtn" class="lg:hidden text-2xl" aria-label="Open menu">☰</button>
+     </div>
+      <div id="mobileMenu" class="hidden lg:hidden px-6 pb-6 bg-white border-t">
+        <div class="grid gap-4 pt-4 text-sm font-semibold">
+            <a href="our-people.html">Our Team</a>
+            <a href="#services">Our Services</a>
+            <a href="careers.html">Careers</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+            <a href="#client-portal">Client Portal</a><a href="#pay-bill">Pay My Bill</a></div></div></header>
+<main>
+<section class="relative min-h-[650px] lg:min-h-[710px] flex items-center overflow-hidden bg-[#20382c]">
+<!-- HERO VIDEO: Replace portland-aerial.mp4 with the Portland / Mount Tabor aerial video downloaded or licensed from the iStock reference in the brief. Keep the file beside this HTML. -->
+   <button id="heroVideoPlay" type="button" aria-label="Play homepage video" class="absolute inset-0 w-full h-full">
+     <img src="portland-aerial-poster.png" alt="" class="w-full h-full object-cover">
+       <span class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex h-20 w-20 items-center justify-center rounded-full bg-white/90 text-4xl text-[#20382c] shadow-lg" aria-hidden="true">▶</span>
+   </button>
+      <video id="heroVideo" class="hidden absolute inset-0 w-full h-full object-cover" controls muted playsinline preload="none" src="homepage-2.mp4" poster="portland-aerial-poster.png">
+
+      </video>
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-r from-[#14291f]/90 via-[#14291f]/65 to-[#14291f]/15"></div>
+      <div class="relative z-20 max-w-7xl mx-auto px-6 w-full py-28 pointer-events-none">
+        <div class="max-w-2xl text-white">
+            <p class="eyebrow !text-lime-300 mb-7">PORTLAND · BEAVERTON · OREGON</p>
+            <h1 class="text-5xl sm:text-6xl lg:text-[76px] leading-[1.03] mb-7">Your trusted advisors for <span class="text-lime-300">more than 75 years.</span>
+            </h1><p class="text-white/85 text-lg leading-8 max-w-xl mb-9">Personal relationships. Thoughtful guidance. Clear answers for the financial decisions that matter.</p><a href="#services" class="btn pointer-events-auto">Explore our services <span>→</span>
+            </a>
+        </div>
+      </div>
+      <div class="absolute bottom-0 right-0 pointer-events-none bg-[#78a83b] text-white px-8 py-5 hidden md:block">
+        <span class="serif text-3xl">75+</span>
+        <span class="block text-[10px] tracking-[.18em] uppercase mt-1">Years of trusted guidance</span>
+    </div>
+</section>
+<section id="services" class="py-24 bg-[#f5f7f1]">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+            <div>
+                <p class="eyebrow mb-4">How we can help</p>
+                <h2 class="text-4xl md:text-5xl leading-tight">Expertise for every<br>stage of your journey.</h2>
+            </div>
+                <p class="text-sm leading-7 text-[#66736a] max-w-md">From everyday accounting to long-term planning, we bring experience and personal attention to your financial picture.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <article id="tax" class="service-card bg-white"><div class="h-56 overflow-hidden">
+                <!-- SERVICE IMAGE 1: Replace tax-planning.jpg with a professional tax-planning / advisor-client image. -->
+                 <img src="tax-planning.jpg" alt="Tax planning consultation" class="w-full h-full object-cover" onerror="this.style.display='none'">
+                </div>
+                <div class="p-8">
+                    <p class="eyebrow mb-3">01 / Individuals & families</p>
+                    <h3 class="text-2xl mb-4">Tax Planning and Preparation</h3>
+                    <p class="text-sm leading-7 text-[#66736a]">Navigate complex tax regulations with confidence through expert tax planning and preparation services designed to minimize your tax burden and ensure compliance.</p>
+                    <a href="#contact" class="inline-block mt-7 text-xs font-bold tracking-widest text-[#5f8e2f]">LEARN MORE ↗</a>
+                </div>
+            </article>
+            <article id="business" class="service-card bg-white">
+                <div class="h-56 overflow-hidden">
+                    <!-- SERVICE IMAGE 2: Replace business-accounting.jpg with an image of a small business owner / accounting discussion. -->
+                     <img src="business-accounting.jpg" alt="Business advisory and accounting" class="w-full h-full object-cover" onerror="this.style.display='none'">
+                    </div>
+                    <div class="p-8">
+                        <p class="eyebrow mb-3">02 / Business owners</p>
+                        <h3 class="text-2xl mb-4">Business Advisory and Accounting</h3>
+                        <p class="text-sm leading-7 text-[#66736a]">Make informed business decisions with reliable accounting services, financial insights, and personalized guidance to help your business succeed.</p>
+                        <a href="#contact" class="inline-block mt-7 text-xs font-bold tracking-widest text-[#5f8e2f]">LEARN MORE ↗</a>
+                    </div>
+            </article>
+            <article id="estate" class="service-card bg-white">
+                <div class="h-56 overflow-hidden">
+                    <!-- SERVICE IMAGE 3: Replace estate-planning.jpg with a warm family / legacy-planning image. -->
+                     <img src="estate-planning.jpg" alt="Estate administration and planning" class="w-full h-full object-cover" onerror="this.style.display='none'">
+                    </div>
+                    <div class="p-8">
+                        <p class="eyebrow mb-3">03 / Legacy & planning</p>
+                        <h3 class="text-2xl mb-4">Estate Administration and Planning</h3>
+                        <p class="text-sm leading-7 text-[#66736a]">Protect your legacy and provide for your loved ones with thoughtful estate planning and experienced guidance through the estate administration process.</p>
+                        <a href="#contact" class="inline-block mt-7 text-xs font-bold tracking-widest text-[#5f8e2f]">LEARN MORE ↗</a>
+                    </div>
+            </article>
+       </div>
+    </div>
+</section>
+<section id="resources" class="py-24 bg-[#f5f7f1]"><div class="max-w-7xl mx-auto px-6"><div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12"><div><p class="eyebrow mb-4">Helpful links</p><h2 class="text-4xl md:text-5xl leading-tight">Resources for your<br>financial journey.</h2></div><p class="text-sm leading-7 text-[#66736a] max-w-md">Explore trusted government resources for tax information and business guidance. These links open external websites.</p></div><div class="grid md:grid-cols-3 gap-6">
+    <a href="https://www.irs.gov/individuals" target="_blank" rel="noopener noreferrer" class="bg-white p-8 group">
+        <p class="eyebrow mb-3">Individuals & families</p>
+        <h3 class="text-2xl mb-3 group-hover:text-[#5f8e2f]">IRS Tax Information</h3>
+        <p class="text-sm leading-7 text-[#66736a]">Find federal tax forms, filing guidance, and information for individuals and families.</p>
+        <span class="inline-block mt-6 text-xs font-bold tracking-widest text-[#5f8e2f]">VISIT IRS.GOV ↗</span></a>
+        <a href="https://www.oregon.gov/dor/" target="_blank" rel="noopener noreferrer" class="bg-white p-8 group">
+            <p class="eyebrow mb-3">Oregon taxpayers</p>
+            <h3 class="text-2xl mb-3 group-hover:text-[#5f8e2f]">Oregon Department of Revenue</h3>
+            <p class="text-sm leading-7 text-[#66736a]">Access Oregon tax forms, filing information, and taxpayer services.</p>
+            <span class="inline-block mt-6 text-xs font-bold tracking-widest text-[#5f8e2f]">VISIT OREGON.GOV ↗</span>
+        </a>
+        <a href="https://www.sba.gov/business-guide/manage-your-business/manage-your-finances" target="_blank" rel="noopener noreferrer" class="bg-white p-8 group">
+            <p class="eyebrow mb-3">Business owners</p>
+            <h3 class="text-2xl mb-3 group-hover:text-[#5f8e2f]">Small Business Finance Guide</h3>
+            <p class="text-sm leading-7 text-[#66736a]">Explore financial management guidance from the U.S. Small Business Administration.</p>
+            <span class="inline-block mt-6 text-xs font-bold tracking-widest text-[#5f8e2f]">VISIT SBA.GOV ↗</span>
+        </a>
+    </div>
+</div>
+</section>
+<section class="py-24">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-[.9fr_1.1fr] gap-16 items-center">
+        <div class="relative">
+            <!-- ABOUT IMAGE: Replace team-at-work.jpg with an authentic Alten Sakai team / office photograph. -->
+             <img src="team at work.jpg" alt="Alten Sakai team at work" class="w-full aspect-[4/5] object-cover bg-[#e8ede2]" onerror="this.style.display='none'">
+             <div class="absolute -bottom-6 -right-5 bg-[#78a83b] text-white p-7 max-w-[190px]">
+                <span class="serif text-4xl">Since 1949</span><p class="text-[10px] tracking-widest uppercase mt-2">Rooted in relationships</p>
+            </div>
+        </div>
+        <div>
+            <p class="eyebrow mb-4">Why choose Alten Sakai & Company?</p>
+            <h2 class="text-4xl md:text-5xl leading-tight mb-5">Experienced Guidance.<br>
+                <span class="text-[#78a83b]">Personal Attention.</span><br>Lasting Relationships.</h2>
+                <div class="line mb-7"></div>
+                <p class="text-[#66736a] leading-8 mb-9">For more than 75 years, Alten Sakai & Company has helped individuals and businesses navigate an ever-changing financial landscape. We believe the best advice begins with listening. By understanding your goals, challenges, and priorities, we deliver thoughtful solutions and build relationships that last.</p>
+                <div class="grid sm:grid-cols-2 gap-x-8 gap-y-7"><div>
+                    <h3 class="text-xl mb-2">Experience You Can Trust</h3>
+                    <p class="text-sm text-[#66736a] leading-6">Decades of knowledge applied with care and sound judgment.</p>
+                </div>
+                    <div>
+                        <h3 class="text-xl mb-2">A Personal Approach</h3>
+                        <p class="text-sm text-[#66736a] leading-6">Advice shaped around you, your family, and your business.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl mb-2">Proactive, Year-Round Guidance</h3>
+                        <p class="text-sm text-[#66736a] leading-6">A steady partner beyond tax season and deadlines.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl mb-2">Comprehensive Financial Expertise</h3>
+                        <p class="text-sm text-[#66736a] leading-6">Connected insight across tax, accounting, and estate matters.</p>
+                    </div>
+                </div>
+                <a href="our-people.html" class="btn mt-10">Meet our team <span>→</span></a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#20382c] text-white py-20">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+            <div>
+                <p class="eyebrow !text-lime-300 mb-4">A relationship that makes a difference</p>
+                <h2 class="text-4xl md:text-5xl max-w-2xl">Let's make your next financial decision a confident one.</h2>
+            </div>
+            <a href="#contact" class="btn !bg-[#78a83b] shrink-0">Start a conversation →</a>
+        </div>
+    </section>
+</main>
+<footer id="contact" class="bg-[#17291f] text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-12 pb-12">
+            <div>
+                <div class="text-2xl tracking-tight mb-4">
+                    <img src="logo-footer.png" alt="Alten Sakai & Company CPAs" class="w-[350px] max-h-[70px] object-contain" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                </div>
+                <p class="text-sm text-white/60 leading-7">Complete personal and business planning, tax & accounting services.</p>
+            </div>
+            <div>
+                <p class="eyebrow !text-lime-300 mb-5">Visit our office</p>
+                <p class="text-sm leading-7 text-white/75">Alten Sakai & Company LLP<br>8625 SW Cascade Avenue, Suite 310<br>Beaverton, OR 97008</p>
+            </div>
+            <div>
+                <p class="eyebrow !text-lime-300 mb-5">Get in touch</p>
+                <p class="text-sm leading-8 text-white/75">503-297-1072<br><a href="mailto:info@altensakai.cpa" class="hover:text-lime-300">info@altensakai.cpa</a><br><a href="careers.html" class="hover:text-lime-300">Careers</a> · <a href="our-people.html" class="hover:text-lime-300">Our Team</a></p>
+            </div>
+        </div>
+        <div class="border-t border-white/15 pt-6 flex flex-col sm:flex-row justify-between gap-3 text-[10px] tracking-wider text-white/45">
+            <span>© Alten Sakai & Company LLP. All rights reserved.</span>
+            <span><a id="client-portal" href="#" class="hover:text-white">CLIENT PORTAL</a>　·　<a id="pay-bill" href="#" class="hover:text-white">PAY MY BILL</a></span>
+        </div>
+    </div>
+</footer>
+<script>
+document.getElementById('heroVideoPlay').addEventListener('click',function(){
+const video=document.getElementById('heroVideo');
+video.classList.remove('hidden');
+this.remove();
+video.play();
+});
+</script>
+</body></html>
